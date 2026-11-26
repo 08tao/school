@@ -7,7 +7,7 @@ int wen,li;    //文科排名，理科排名
 }
 
 int main(){
-  int act;    //操作选项
+  int op;    //操作选项
   printf("········高考成绩排名系统········\n");
   printf("1. 考生信息输入\n");
   printf("2. 考生信息修改\n");
@@ -19,7 +19,7 @@ int main(){
   printf("······························\n");
   printf("请输入你的操作选项\n");
   scanf("%d",&act);
-  switch(act){
+  switch(op){
     case 1:
     
   }
